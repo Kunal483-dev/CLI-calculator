@@ -16,4 +16,4 @@ elif operator == '/':
     else:
         print("Error: Zero se divide nahi kar sakte!")
 else:
-    print("Galat operator!")
+    print("Invalid operator!")
