@@ -1,9 +1,9 @@
-# User se input lena
-num1 = float(input("Pehla number dalein: "))
-operator = input("Operator dalein (+, -, *, /): ")
-num2 = float(input("Doosra number dalein: "))
+#Take input from user
+num1 = float(input("Enter First Number: "))
+operator = input("Choose operator (+, -, *, /): ")
+num2 = float(input("Enter Second Number: "))
 
-# Calculation aur result
+# Calculation and result
 if operator == '+':
     print("Result:", num1 + num2)
 elif operator == '-':
@@ -14,6 +14,6 @@ elif operator == '/':
     if num2 != 0:
         print("Result:", num1 / num2)
     else:
-        print("Error: Zero se divide nahi kar sakte!")
+        print("Error: No number is divisible by zero")
 else:
     print("Invalid operator!")
